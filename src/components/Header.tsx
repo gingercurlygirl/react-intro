@@ -3,8 +3,13 @@ import "./style.css"
 const Header = () => {
     return (
         <header>
-            <h1>Min sida</h1>
-            <small>Byggd i React!</small>
+            <h1>Star Wars Jedi</h1>
+            <nav>
+                <button>Search Jedi</button>
+                <button>Ask something</button>
+                <button>Search your power</button>
+                </nav>
+            
         </header>
     )
 }
